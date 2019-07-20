@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <Button>点击</Button>
+    <el-button>test</el-button>
   </div>
 </template>
 
