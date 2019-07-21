@@ -5,7 +5,7 @@
         <Aside />
       </el-aside>
       <el-container>
-        <el-header>Header</el-header>
+        <el-header><Header /></el-header>
         <el-main>Main</el-main>
         <router-view/>
         <el-footer>Footer</el-footer>
@@ -15,10 +15,14 @@
 </template>
 
 <script>
-import Aside from './components/Aside/Aside.vue'
+import Aside from './components/Aside/Aside.vue';
+import Header from './components/Header/Header.vue';
+// import OfficeInfo from './components/OfficeInfo/OfficeInfo.vue';
 export default {
   components: {
     Aside,
+    Header,
+    // OfficeInfo,
   }
 
 }
